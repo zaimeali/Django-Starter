@@ -9,3 +9,7 @@
 ## To Run Project
 
 - py manage.py runserver
+
+## To Create App inside Project
+
+- py manage.py startapp <App-Name>
