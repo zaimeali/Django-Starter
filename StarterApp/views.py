@@ -18,4 +18,8 @@ def moreWord(request,message):
     return JsonResponse({
         "message": "Hello, " + message
     }, status=200)
+def moreTask(request,message):
+    return JsonResponse({
+        "message": "More Task" 
+    }, status=200)
 
