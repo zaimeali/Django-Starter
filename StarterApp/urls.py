@@ -4,6 +4,6 @@ from . import views
 
 urlpatterns = [
     path("", views.hello_world, name="hello_world"),
-    path("more", views.more_message, name="Hello POC"),
-    path("more/<str:message>", views.moreWord, name="Hello Message")
+    path("more", views.more_message, name="hello_POC"),
+    path("more/<str:message>", views.moreWord, name="hello_message")
 ]
